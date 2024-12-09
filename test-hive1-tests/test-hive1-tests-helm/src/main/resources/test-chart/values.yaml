@@ -1,0 +1,5 @@
+
+image:
+  name: test-hive1-tests-docker
+  imagePullPolicy: IfNotPresent
+  dockerRepo: ""
