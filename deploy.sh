@@ -19,7 +19,7 @@ startup() {
   if ! kubectl rollout status --namespace argocd deployment/argocd-server --timeout=30s; then
     exit $?
   fi
-  argocd repo add https://github.com/{github-username}/test-hive1 --server localhost:30080 --plaintext --insecure-skip-server-verification
+  argocd repo add https://github.com/meliz19/test-hive1 --server localhost:30080 --plaintext --insecure-skip-server-verification
 }
 
 is_app_running() {
@@ -42,7 +42,7 @@ deploy() {
       --server localhost:30080 --plaintext \
       --dest-namespace test-hive1 \
       --dest-server https://kubernetes.default.svc \
-      --repo https://github.com/{github-username}/test-hive1 \
+      --repo https://github.com/meliz19/test-hive1 \
       --path test-hive1-deploy/src/main/resources \
       --revision $branch \
       --helm-set spec.targetRevision=$branch \

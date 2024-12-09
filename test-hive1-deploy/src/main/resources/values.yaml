@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   targetRevision: dev
-  repo: https://github.com/{github-username}/test-hive1
+  repo: https://github.com/meliz19/test-hive1
   helm:
     valueFiles:
       - values.yaml

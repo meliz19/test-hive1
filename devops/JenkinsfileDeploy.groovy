@@ -1,5 +1,5 @@
 def gitId = 'github'
-def gitRepo = 'https://github.com/{github-username}/test-hive1'
+def gitRepo = 'https://github.com/meliz19/test-hive1'
 // Set branch in the Jenkins Job or set here if not variable
 def gitBranch = 'refs/heads/${branch}'
 def projectDirectory = 'test-hive1'

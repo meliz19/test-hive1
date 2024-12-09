@@ -86,9 +86,9 @@
     <!-- END: workaround to get maven build cache invalidation on new SNAPSHOTS of plugin dependencies -->
   </dependencies>
   <scm>
-    <connection>scm:git:https://github.com/{github-username}/test-hive1.git</connection>
-    <developerConnection>scm:git:https://github.com/{github-username}/test-hive1.git</developerConnection>
-    <url>https://github.com/{github-username}/test-hive1</url>
+    <connection>scm:git:https://github.com/meliz19/test-hive1.git</connection>
+    <developerConnection>scm:git:https://github.com/meliz19/test-hive1.git</developerConnection>
+    <url>https://github.com/meliz19/test-hive1</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
